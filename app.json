@@ -1,19 +1,23 @@
 {
   "expo": {
-    "name": "kohlabs-expo",
-    "slug": "kohlabs-expo",
+    "name": "KoH Labs",
+    "slug": "kohlabs",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
+    "backgroundColor": "#000000",
+    "primaryColor": "#6366f1",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kohlabs.app",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
